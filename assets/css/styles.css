@@ -1,0 +1,534 @@
+/* ==========================================================================
+   Boracay Island Travel & Tours - Master Design System
+   Modern Tropical Luxury with Glassmorphism, Micro-interactions, Responsive
+   ========================================================================== */
+
+:root {
+  --primary-color: #0284c7;        /* Vibrant Caribbean Blue */
+  --primary-hover: #0369a1;
+  --secondary-color: #0d9488;      /* Lush Lagoon Teal */
+  --accent-gold: #f59e0b;          /* Tropical Sunset Gold */
+  --accent-coral: #f43f5e;         /* Warm Coral */
+  --dark-navy: #0f172a;            /* Deep Ocean Slate */
+  --dark-slate: #1e293b;
+  --light-bg: #f8fafc;             /* Crisp Cloud White */
+  --pure-white: #ffffff;
+  --sand-tone: #fef3c7;            /* Powdery Sand Cream */
+  --text-primary: #1e293b;
+  --text-muted: #64748b;
+  --border-light: rgba(226, 232, 240, 0.8);
+  --card-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+  --hover-shadow: 0 20px 30px -10px rgba(2, 132, 199, 0.2);
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --transition-smooth: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Global Font & Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-font {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Navbar Styling */
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(2, 132, 199, 0.12);
+  transition: var(--transition-smooth);
+  padding: 0.85rem 0;
+}
+
+.navbar-custom.scrolled {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  padding: 0.6rem 0;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.45rem;
+  color: var(--dark-navy) !important;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-brand i {
+  color: var(--primary-color);
+  font-size: 1.7rem;
+}
+
+.navbar-brand span.highlight {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #334155 !important;
+  padding: 0.5rem 0.9rem !important;
+  position: relative;
+  transition: var(--transition-smooth);
+  font-size: 0.95rem;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2.5px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transition: var(--transition-smooth);
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 70%;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.72) 0%, rgba(2, 132, 199, 0.5) 100%),
+              url('../images/hero_beach.jpg') center/cover no-repeat;
+  color: #fff;
+  overflow: hidden;
+  padding: 120px 0 80px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.45rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  animation: fadeInDown 0.8s ease;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title .gradient-text {
+  background: linear-gradient(90deg, #38bdf8, #fef08a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 2rem;
+}
+
+/* Call to action & button styles */
+.btn-primary-custom {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  color: white;
+  padding: 0.85rem 1.9rem;
+  border-radius: 50px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.35);
+  transition: var(--transition-smooth);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(2, 132, 199, 0.5);
+  color: #fff;
+}
+
+.btn-outline-custom {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  color: white;
+  padding: 0.85rem 1.9rem;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: var(--transition-smooth);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-outline-custom:hover {
+  background: #ffffff;
+  color: var(--primary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Card & Component Styles */
+.section-padding {
+  padding: 85px 0;
+}
+
+.section-badge {
+  display: inline-block;
+  background: #e0f2fe;
+  color: var(--primary-color);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 0.75rem;
+}
+
+.section-heading {
+  font-size: 2.35rem;
+  font-weight: 800;
+  color: var(--dark-navy);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  max-width: 680px;
+  margin: 0 auto 3rem auto;
+}
+
+/* Modern Card with Glass/Flat balance */
+.custom-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition-smooth);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--hover-shadow);
+  border-color: rgba(2, 132, 199, 0.3);
+}
+
+.card-img-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 230px;
+}
+
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.custom-card:hover .card-img-wrap img {
+  transform: scale(1.08);
+}
+
+.card-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.card-badge.promo {
+  background: linear-gradient(135deg, #f43f5e, #e11d48);
+}
+
+.price-tag {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.price-tag small {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Brochure Banner Highlight */
+.brochure-banner {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 50%, #0d9488 100%);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  color: #fff;
+  box-shadow: 0 15px 35px rgba(2, 132, 199, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.brochure-banner::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 250px;
+  height: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Feature List checkmarks */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+  font-size: 0.95rem;
+}
+
+.feature-list li i {
+  color: #10b981;
+  font-size: 1.1rem;
+  margin-top: 0.15rem;
+}
+
+/* Interactive Filter Pills */
+.filter-btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  color: #475569;
+  padding: 0.5rem 1.3rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition-smooth);
+  cursor: pointer;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+
+/* Gallery Lightbox Cards */
+.gallery-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 260px;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  transition: var(--transition-smooth);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  opacity: 0;
+  transition: var(--transition-smooth);
+  color: #fff;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* Currency & Budget Calculator */
+.calc-card {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--card-shadow);
+  padding: 2rem;
+}
+
+/* Local Storage Manager Table */
+.table-custom {
+  background: #fff;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.table-custom th {
+  background: #0f172a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1rem;
+}
+
+.table-custom td {
+  padding: 0.9rem 1rem;
+  vertical-align: middle;
+}
+
+/* Reviews and Rating */
+.star-rating {
+  color: #f59e0b;
+}
+
+.review-badge {
+  background: #fef3c7;
+  color: #b45309;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* Footer */
+.footer-custom {
+  background: var(--dark-navy);
+  color: #94a3b8;
+  padding: 70px 0 25px;
+}
+
+.footer-custom h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 1.4rem;
+}
+
+.footer-link {
+  color: #94a3b8;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  display: block;
+  margin-bottom: 0.55rem;
+  font-size: 0.92rem;
+}
+
+.footer-link:hover {
+  color: #38bdf8;
+  padding-left: 5px;
+}
+
+.social-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: var(--transition-smooth);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.social-icon-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.6rem;
+  }
+  .brochure-banner {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+  .hero-section {
+    min-height: 80vh;
+    padding: 100px 0 60px;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .section-heading {
+    font-size: 1.85rem;
+  }
+}

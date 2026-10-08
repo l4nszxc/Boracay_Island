@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official Boracay Island Travel & Tours Portal. Discover paradise, explore White Beach, Willy's Rock, D'Mall, island hopping packages, luxury hotels, and instant bookings.">
+  <meta name="keywords" content="Boracay Travel Package, Boracay Island Tours, White Beach Station 1, D'Mall Boracay, Coast Boracay, Philippines Tourism">
+  <meta name="author" content="Boracay Island Travel & Tours">
+  <title>Boracay Island Travel & Tours | Discover Paradise in Every Moment</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Master Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="top" data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+
+  <!-- ================= TOP NOTIFICATION BAR ================= -->
+  <div class="bg-dark text-white py-2 small d-none d-md-block border-bottom border-secondary">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <span class="me-3"><i class="bi bi-geo-alt-fill text-info me-1"></i> Station 1, Boracay Island, Malay, Aklan 5608</span>
+        <span><i class="bi bi-telephone-fill text-info me-1"></i> +63 912 345 6789</span>
+      </div>
+      <div>
+        <span class="badge bg-warning text-dark me-2"><i class="bi bi-tag-fill me-1"></i> Featured Promo: ₱6,999/pax 3D2N</span>
+        <a href="#booking" class="text-white text-decoration-none fw-semibold">Book Online Now &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN NAVIGATION (NAVBAR) ================= -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">
+        <i class="bi bi-tsunami"></i>
+        <span>BORACAY <span class="highlight">TRAVEL</span></span>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#top">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#packages">Tour Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#guide">Travel Guide</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking">Book Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <a href="#admin-database" class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" title="View LocalStorage Saved Bookings">
+            <i class="bi bi-database me-1"></i> Local DB
+          </a>
+          <a href="#booking" class="btn btn-primary-custom py-2 px-3 small">
+            <i class="bi bi-calendar-check"></i> Plan Trip
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= 1. HOME HERO SECTION ================= -->
+  <header class="hero-section">
+    <div class="container position-relative z-1 text-center text-lg-start">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="hero-badge">
+            <i class="bi bi-brightness-high-fill text-warning"></i> Sun &bull; Sea &bull; Adventure &bull; Relaxation
+          </div>
+          <h1 class="hero-title">
+            Discover Paradise <br>
+            <span class="gradient-text">In Every Moment</span>
+          </h1>
+          <p class="hero-lead">
+            Experience the world-renowned powdery white sand, breathtaking azure waters, vibrant tropical nightlife, and authentic Filipino hospitality of Boracay Island, Philippines.
+          </p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-4">
+            <a href="#packages" class="btn btn-primary-custom">
+              <i class="bi bi-compass"></i> Explore Packages
+            </a>
+            <a href="#featured-brochure" class="btn btn-outline-custom">
+              <i class="bi bi-file-earmark-text"></i> View 3D2N Special
+            </a>
+          </div>
+
+          <!-- Quick trust points -->
+          <div class="row g-3 text-start pt-3 border-top border-light border-opacity-25 mt-4">
+            <div class="col-sm-4">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-shield-check fs-3 text-info"></i>
+                <div>
+                  <div class="fw-bold">DOT Accredited</div>
+                  <small class="text-white-50">Certified Agency</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-cash-stack fs-3 text-warning"></i>
+                <div>
+                  <div class="fw-bold">From ₱6,999/Pax</div>
+                  <small class="text-white-50">Best Price Guarantee</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-stars fs-3 text-info"></i>
+                <div>
+                  <div class="fw-bold">Coast Boracay</div>
+                  <small class="text-white-50">Top Beachfront Partner</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Card Floating Promo Widget -->
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card border-0 shadow-lg p-3 text-dark rounded-4 bg-white bg-opacity-95 backdrop-blur">
+            <div class="position-relative overflow-hidden rounded-3 mb-3">
+              <img src="assets/images/coast_resort.jpg" class="img-fluid" alt="Coast Boracay Resort">
+              <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 rounded-pill">Best Seller</span>
+            </div>
+            <h5 class="fw-bold mb-1">Boracay Gateway Special</h5>
+            <p class="text-muted small mb-2">3 Days 2 Nights inclusive of Coast Boracay Hotel, Island Hopping, transfers, and daily breakfast.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div>
+                <span class="text-muted small text-decoration-line-through">₱8,500</span>
+                <div class="fs-4 fw-bold text-primary">₱6,999 <small class="fs-6 fw-normal text-muted">/pax</small></div>
+              </div>
+              <div class="text-warning small">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="text-muted small">4.9 (1,240 reviews)</div>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn-primary w-100 rounded-pill fw-semibold py-2">Reserve Your Dates</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= BROCHURE SPOTLIGHT SECTION ================= -->
+  <section id="featured-brochure" class="py-5 bg-white">
+    <div class="container">
+      <div class="brochure-banner">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold mb-3">FEATURED TRAVEL BROCHURE PACKAGE</span>
+            <h2 class="display-6 fw-bold mb-2">3 Days 2 Nights Boracay Getaway Package</h2>
+            <p class="lead mb-4 text-white-50">
+              Experience the white-sand beaches, crystal-clear waters, and vibrant island life of Boracay. This 3 Days 2 Nights package is perfect for those looking to relax, explore, and create unforgettable memories.
+            </p>
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <div class="d-flex gap-2 align-items-center text-white">
+                  <i class="bi bi-check-circle-fill text-warning fs-5"></i>
+                  <span><strong>2 Nights Hotel Accommodation</strong> (standard/superior)</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex gap-2 align-items-center text-white">
+                  <i class="bi bi-check-circle-fill text-warning fs-5"></i>
+                  <span><strong>Daily Breakfast</strong> included</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex gap-2 align-items-center text-white">
+                  <i class="bi bi-check-circle-fill text-warning fs-5"></i>
+                  <span><strong>Roundtrip Airport Transfer</strong> (Caticlan - Hotel - Caticlan)</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex gap-2 align-items-center text-white">
+                  <i class="bi bi-check-circle-fill text-warning fs-5"></i>
+                  <span><strong>Island Hopping Tour</strong> (Boat, guide, entrance fees)</span>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="d-flex gap-2 align-items-center text-white">
+                  <i class="bi bi-check-circle-fill text-warning fs-5"></i>
+                  <span><strong>Free Use of Hotel Amenities</strong> (pool, Wi-Fi, beachfront loungers)</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-3 align-items-center">
+              <a href="#booking" class="btn btn-light text-primary fw-bold rounded-pill px-4 py-3 btn-select-package" data-package-val="3d2n-featured">
+                <i class="bi bi-ticket-perforated-fill me-1"></i> Book This Package Now
+              </a>
+              <span class="fs-5 text-white-50 fst-italic">"More than a trip, it's a Boracay experience!"</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card bg-white text-dark rounded-4 p-4 shadow-lg border-0">
+              <div class="text-center pb-3 border-bottom">
+                <span class="text-uppercase text-muted fw-bold small">Official Promotional Rate</span>
+                <div class="display-4 fw-extrabold text-primary fw-bold">₱6,999</div>
+                <span class="badge bg-success-subtle text-success px-3 py-1 rounded-pill fw-semibold">PER PERSON (ALL-IN)</span>
+              </div>
+              <div class="pt-3">
+                <h6 class="fw-bold mb-2"><i class="bi bi-building text-primary me-2"></i>Featured Hotel Partner:</h6>
+                <div class="d-flex gap-3 align-items-center p-2 rounded-3 bg-light">
+                  <img src="assets/images/coast_resort.jpg" class="rounded-3" style="width: 75px; height: 60px; object-fit: cover;" alt="Coast Boracay">
+                  <div>
+                    <div class="fw-bold">COAST BORACAY (or similar)</div>
+                    <small class="text-muted"><i class="bi bi-geo-alt"></i> Station 2, Main Road, Balabag, Boracay Island</small>
+                  </div>
+                </div>
+                <div class="mt-3 small text-muted">
+                  <i class="bi bi-info-circle me-1"></i> Valid for Philippine residents & international tourists. Subject to room availability.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2. ABOUT US / DESTINATION ================= -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="position-relative">
+            <img src="assets/images/willys_rock.jpg" class="img-fluid rounded-4 shadow-lg" alt="Willy's Rock Boracay">
+            <div class="position-absolute bottom-0 start-0 m-4 p-3 rounded-3 bg-white shadow d-flex align-items-center gap-3">
+              <div class="bg-primary text-white rounded-circle p-3">
+                <i class="bi bi-award fs-3"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-0">World's Top Island</h6>
+                <small class="text-muted">Conde Nast Traveler & Travel+Leisure</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <span class="section-badge">About Boracay & Our Agency</span>
+          <h2 class="section-heading">Paradise Reimagined: Sustainable, World-Class Tourism</h2>
+          <p class="text-muted mb-4">
+            Boracay is a butterfly-shaped island located in the Western Visayas region of the Philippines, approximately 315 kilometers south of Manila. Celebrated globally for its 4-kilometer stretch of powdery white sand along White Beach, tranquil turquoise waters, and sensational sunsets, the island represents the crowning jewel of Philippine tropical tourism.
+          </p>
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="p-3 rounded-3 bg-white border">
+                <h6 class="fw-bold text-primary"><i class="bi bi-bullseye me-2"></i>Our Mission</h6>
+                <p class="small text-muted mb-0">To deliver authentic, seamless, and eco-friendly island experiences that respect local culture and support community livelihoods.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="p-3 rounded-3 bg-white border">
+                <h6 class="fw-bold text-secondary"><i class="bi bi-eye me-2"></i>Our Vision</h6>
+                <p class="small text-muted mb-0">To be the Philippines' premier digital tourism portal inspiring sustainable adventures and unforgettable lifelong memories.</p>
+              </div>
+            </div>
+          </div>
+          <ul class="feature-list mb-4">
+            <li><i class="bi bi-check-circle-fill"></i> <strong>Tourism Significance:</strong> Major driver of national revenue and cultural pride with modern environmental preservation policies.</li>
+            <li><i class="bi bi-check-circle-fill"></i> <strong>Distinct Character:</strong> Divided into 3 vibrant beach stations and pristine northern coves offering distinct leisure vibes.</li>
+            <li><i class="bi bi-check-circle-fill"></i> <strong>Target Market:</strong> International globe-trotters, Filipino holidaymakers, families, thrill-seekers, and honeymooners.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3. TOP ATTRACTIONS & SERVICES ================= -->
+  <section id="attractions" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge">Iconic Sights & Highlights</span>
+        <h2 class="section-heading">Top Boracay Island Attractions</h2>
+        <p class="section-subtitle">
+          From tranquil stations to adrenaline-pumping watersport bays, discover the prime landmarks featured in our official destination brochure.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Attraction 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/hero_beach.jpg" alt="White Beach Station 1">
+              <span class="card-badge"><i class="bi bi-geo-alt-fill"></i> Station 1</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">White Beach (Station 1)</h5>
+              <p class="text-muted small flex-grow-1">
+                World-famous powdery white sand and crystal-clear waters. Known for its wide shoreline, premier luxury beachfront resorts, and postcard-perfect swimming conditions.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-clock me-1"></i> Open 24/7 &bull; Free</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attraction 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/dmall.jpg" alt="D'Mall de Boracay Station 2">
+              <span class="card-badge"><i class="bi bi-geo-alt-fill"></i> Station 2</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">D'Mall de Boracay</h5>
+              <p class="text-muted small flex-grow-1">
+                Shopping, dining, and local finds in the beating heart of Boracay. Features boutique gift shops, cafes, international cuisine, currency exchanges, and island pharmacies.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-shop me-1"></i> Balabag, Malay</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attraction 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/bulabog_beach.jpg" alt="Bulabog Beach Station 3 / East Side">
+              <span class="card-badge"><i class="bi bi-wind"></i> East Coast</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">Bulabog Beach</h5>
+              <p class="text-muted small flex-grow-1">
+                Asia's premier kitesurfing and windsurfing playground. Perfect for water sports enthusiasts seeking dynamic breezes and a quiet, laid-back beach vibe away from the crowds.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-activity me-1"></i> Water Sports Hub</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attraction 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/willys_rock.jpg" alt="Willy's Rock Station 1">
+              <span class="card-badge"><i class="bi bi-camera-fill"></i> Landmark</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">Willy's Rock</h5>
+              <p class="text-muted small flex-grow-1">
+                Iconic volcanic rock formation situated right on the shallow sea with a small Catholic shrine and statue of the Blessed Virgin Mary. The most photographed landmark in Boracay.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-pin-map me-1"></i> Station 1 Shallows</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attraction 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/cagban_port.jpg" alt="Cagban Port Jetty">
+              <span class="card-badge"><i class="bi bi-compass"></i> Southern Hub</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">Cagban Port</h5>
+              <p class="text-muted small flex-grow-1">
+                The main arrival jetty and primary departure point for island hopping tours, motorized banca transfers, and sea luggage handling connecting directly to mainland Panay.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-signpost-2 me-1"></i> Cagban, Malay, Aklan</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attraction 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/puka_beach.jpg" alt="Puka Shell Beach">
+              <span class="card-badge"><i class="bi bi-water"></i> North Coast</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h5 class="fw-bold mb-2">Puka Shell Beach (Yapak)</h5>
+              <p class="text-muted small flex-grow-1">
+                A serene, pristine northern coastline made famous by natural crushed puka shells. Quieter turquoise waters, dramatic cliffs, and artisanal souvenir stalls.
+              </p>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-sun me-1"></i> 5 km from Station 2</span>
+                <a href="#booking" class="btn btn-sm btn-outline-primary rounded-pill">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4. TOUR PACKAGES & ITINERARIES ================= -->
+  <section id="packages" class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge">Comprehensive Vacation Packages</span>
+        <h2 class="section-heading">Curated Boracay Tour Itineraries</h2>
+        <p class="section-subtitle">
+          Choose from our transparent, fully-vetted travel packages tailored for relaxation, adventure, and unforgettable holiday memories.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Package 1: Brochure Special -->
+        <div class="col-lg-4">
+          <div class="custom-card border-primary position-relative">
+            <div class="card-badge promo">Brochure Featured</div>
+            <div class="card-img-wrap">
+              <img src="assets/images/island_hopping.jpg" alt="3D2N Boracay Getaway">
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-primary-subtle text-primary">3 Days / 2 Nights</span>
+                <div class="price-tag">₱6,999 <small>/pax</small></div>
+              </div>
+              <h4 class="fw-bold mb-2">Boracay Getaway Special</h4>
+              <p class="text-muted small mb-3">Our signature brochure getaway package covering key highlights with hotel accommodation and guided tours.</p>
+              
+              <h6 class="fw-bold small text-uppercase text-secondary mb-2">Package Inclusions:</h6>
+              <ul class="feature-list small mb-3">
+                <li><i class="bi bi-check2"></i> 2 Nights Hotel (Coast Boracay or similar)</li>
+                <li><i class="bi bi-check2"></i> Daily Complimentary Breakfast</li>
+                <li><i class="bi bi-check2"></i> Roundtrip Caticlan Airport Transfers</li>
+                <li><i class="bi bi-check2"></i> Half-Day Island Hopping Tour with Guide</li>
+                <li><i class="bi bi-check2"></i> Use of Hotel Amenities (Pool, Beachfront)</li>
+              </ul>
+
+              <div class="bg-light p-2 rounded-3 small mb-3">
+                <strong>Suggested Itinerary:</strong>
+                <div>Day 1: Arrival & D'Mall sunset walk</div>
+                <div>Day 2: Island hopping, Coral Reef snorkel, Willy's Rock</div>
+                <div>Day 3: Breakfast & airport transfer</div>
+              </div>
+
+              <div class="mt-auto">
+                <a href="#booking" class="btn btn-primary-custom w-100 justify-content-center btn-select-package" data-package-val="3d2n-featured">
+                  Book ₱6,999 Package
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2: Luxury Sunset & Watersports -->
+        <div class="col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/paraw_sunset.jpg" alt="Luxury Sunset Package">
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-secondary-subtle text-secondary">4 Days / 3 Nights</span>
+                <div class="price-tag">₱11,499 <small>/pax</small></div>
+              </div>
+              <h4 class="fw-bold mb-2">Luxury Sunset & Watersports Escape</h4>
+              <p class="text-muted small mb-3">Tailored for couples and premium vacationers seeking private sunset sails and aquatic thrills.</p>
+              
+              <h6 class="fw-bold small text-uppercase text-secondary mb-2">Package Inclusions:</h6>
+              <ul class="feature-list small mb-3">
+                <li><i class="bi bi-check2"></i> 3 Nights Deluxe Beachfront Suite</li>
+                <li><i class="bi bi-check2"></i> Private Paraw Sunset Sail with Cocktails</li>
+                <li><i class="bi bi-check2"></i> Helmet Diving & Parasailing Pass</li>
+                <li><i class="bi bi-check2"></i> Buffet Breakfast & Welcome Drinks</li>
+                <li><i class="bi bi-check2"></i> Speedboat Airport Transfer Service</li>
+              </ul>
+
+              <div class="bg-light p-2 rounded-3 small mb-3">
+                <strong>Suggested Itinerary:</strong>
+                <div>Day 1: Speedboat arrival & Station 1 cocktail hour</div>
+                <div>Day 2: Parasailing & private paraw sailing</div>
+                <div>Day 3: Helmet diving + Puka Beach leisure</div>
+                <div>Day 4: Spa breakfast & departure</div>
+              </div>
+
+              <div class="mt-auto">
+                <a href="#booking" class="btn btn-outline-primary w-100 rounded-pill fw-bold py-2 btn-select-package" data-package-val="4d3n-luxury">
+                  Book Luxury ₱11,499
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3: Eco & Adventure Backpacker -->
+        <div class="col-lg-4">
+          <div class="custom-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/scuba_diving.jpg" alt="Adventure Package">
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-success-subtle text-success">3 Days / 2 Nights</span>
+                <div class="price-tag">₱7,499 <small>/pax</small></div>
+              </div>
+              <h4 class="fw-bold mb-2">Eco-Thrill & Diving Expedition</h4>
+              <p class="text-muted small mb-3">Designed for friends and adventure seekers wanting marine ecology, intro diving, and kite action.</p>
+              
+              <h6 class="fw-bold small text-uppercase text-secondary mb-2">Package Inclusions:</h6>
+              <ul class="feature-list small mb-3">
+                <li><i class="bi bi-check2"></i> 2 Nights Eco-Resort or Boutique Villa</li>
+                <li><i class="bi bi-check2"></i> Introductory Scuba Dive or Snorkel Safari</li>
+                <li><i class="bi bi-check2"></i> Bulabog Beach Watersports Voucher</li>
+                <li><i class="bi bi-check2"></i> Mangrove Eco-Park Environmental Tour</li>
+                <li><i class="bi bi-check2"></i> Roundtrip Port Transfers + Fees</li>
+              </ul>
+
+              <div class="bg-light p-2 rounded-3 small mb-3">
+                <strong>Suggested Itinerary:</strong>
+                <div>Day 1: Arrival, e-trike transfer & paddleboard trial</div>
+                <div>Day 2: Scuba dive discovery + Bulabog kitesurf visit</div>
+                <div>Day 3: Eco Mangrove walk & departure</div>
+              </div>
+
+              <div class="mt-auto">
+                <a href="#booking" class="btn btn-outline-primary w-100 rounded-pill fw-bold py-2 btn-select-package" data-package-val="3d2n-adventure">
+                  Book Adventure ₱7,499
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Tool: Dynamic Trip Cost Estimator -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-10">
+          <div class="calc-card">
+            <div class="row align-items-center">
+              <div class="col-md-5 border-end-md">
+                <span class="badge bg-info text-dark mb-2"><i class="bi bi-calculator"></i> Digital Tourism Tool</span>
+                <h4 class="fw-bold mb-2">Interactive Trip Cost Estimator</h4>
+                <p class="text-muted small mb-3">
+                  Plan your vacation budget instantaneously. Calculate package total including official Aklan LGU environmental & terminal fees.
+                </p>
+                <div class="p-3 bg-light rounded-3 text-center">
+                  <div class="small text-muted text-uppercase fw-semibold">Estimated Total Amount</div>
+                  <div id="calcResult" class="display-6 fw-bold text-primary">₱6,999</div>
+                  <div id="calcBreakdown" class="small text-muted mt-1">Includes base rate & standard fees</div>
+                </div>
+              </div>
+              <div class="col-md-7 ps-md-4 pt-3 pt-md-0">
+                <form id="calculatorForm" class="row g-3">
+                  <div class="col-12">
+                    <label class="form-label fw-semibold small">Choose Vacation Package</label>
+                    <select id="calcPackage" class="form-select form-select-sm">
+                      <option value="3d2n-featured" selected>3D2N Boracay Getaway Special (₱6,999/pax)</option>
+                      <option value="4d3n-luxury">4D3N Luxury Sunset & Watersports (₱11,499/pax)</option>
+                      <option value="3d2n-adventure">3D2N Eco-Thrill & Diving Expedition (₱7,499/pax)</option>
+                      <option value="5d4n-honeymoon">5D4N Ultimate Honeymoon Package (₱18,999/pax)</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <label class="form-label fw-semibold small">Number of Guests (Pax)</label>
+                    <input type="number" id="calcGuests" class="form-control form-control-sm" value="1" min="1" max="25">
+                  </div>
+                  <div class="col-sm-6">
+                    <label class="form-label fw-semibold small">Travel Season</label>
+                    <select id="calcSeason" class="form-select form-select-sm">
+                      <option value="1.0" selected>Regular Season (No surcharge)</option>
+                      <option value="1.15">Peak Season / Holidays (+15%)</option>
+                      <option value="0.9">Habagat Low Season (-10% Promo)</option>
+                    </select>
+                  </div>
+                  <div class="col-12 text-end">
+                    <a href="#booking" class="btn btn-sm btn-primary rounded-pill px-4">
+                      <i class="bi bi-arrow-down-circle"></i> Proceed to Reservation
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. DESTINATION / LOCATION INFORMATION ================= -->
+  <section id="location" class="section-padding bg-light">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <span class="section-badge">How to Get There</span>
+          <h2 class="section-heading">Getting to Boracay Island</h2>
+          <p class="text-muted mb-4">
+            Reaching Boracay is streamlined via direct flights to Caticlan Airport followed by a scenic 10-minute jetty boat crossing to Cagban Port.
+          </p>
+
+          <div class="accordion" id="travelAccordion">
+            <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#accFlight" aria-expanded="true">
+                  <i class="bi bi-airplane-fill text-primary me-2"></i> 1. Fly to Caticlan Airport (MPH)
+                </button>
+              </h2>
+              <div id="accFlight" class="accordion-collapse collapse show" data-bs-parent="#travelAccordion">
+                <div class="accordion-body small text-muted">
+                  Direct 45-minute commercial flights operate daily from Manila (MNL) and Cebu (CEB) to Godofredo P. Ramos Airport (Caticlan). From Caticlan Airport, it is just a 5-minute electric tricycle (e-trike) ride to Caticlan Jetty Port.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#accBoat">
+                  <i class="bi bi-water text-primary me-2"></i> 2. Caticlan Jetty Port to Cagban Port
+                </button>
+              </h2>
+              <div id="accBoat" class="accordion-collapse collapse" data-bs-parent="#travelAccordion">
+                <div class="accordion-body small text-muted">
+                  Present your DOT-accredited hotel booking confirmation voucher at the terminal. Board the traditional motorized banca or modern air-conditioned fastcraft for a breezy 10-to-15 minute ride across the tablas strait directly to Cagban Port in Boracay.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#accIsland">
+                  <i class="bi bi-ev-front-fill text-primary me-2"></i> 3. Inland E-Trike to Your Resort
+                </button>
+              </h2>
+              <div id="accIsland" class="accordion-collapse collapse" data-bs-parent="#travelAccordion">
+                <div class="accordion-body small text-muted">
+                  From Cagban Port, clean green e-trikes or private package hotel vans transfer you to your hotel along Station 1, 2, or 3 within 15–25 minutes.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 p-3 rounded-3 bg-white border">
+            <h6 class="fw-bold mb-1"><i class="bi bi-cash me-1 text-success"></i> Mandatory Local Government Fees:</h6>
+            <div class="d-flex justify-content-between small text-muted">
+              <span>Environmental Fee: <strong>₱300</strong> (Foreign) / <strong>₱150</strong> (Domestic)</span>
+              <span>Caticlan Jetty Terminal Fee: <strong>₱150</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="card-header bg-dark text-white p-3 d-flex justify-content-between align-items-center">
+              <span class="fw-semibold"><i class="bi bi-map-fill me-2 text-info"></i> Interactive Boracay Island Map</span>
+              <span class="badge bg-success">GPS Verified</span>
+            </div>
+            <!-- Embedded Google Map centered on Boracay Island -->
+            <div class="ratio ratio-4x3">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31215.122851945398!2d121.91240327429188!3d11.967375231780447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a53c2dd0bd7b1d%3A0x2f7d3d42b4cb1077!2sBoracay!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Boracay Island Google Map">
+              </iframe>
+            </div>
+            <div class="card-body bg-white p-3">
+              <div class="row text-center small">
+                <div class="col-4 border-end">
+                  <div class="fw-bold text-dark">Station 1</div>
+                  <div class="text-muted">Powdery sand & quiet luxury</div>
+                </div>
+                <div class="col-4 border-end">
+                  <div class="fw-bold text-dark">Station 2</div>
+                  <div class="text-muted">D'Mall, restaurants & nightlife</div>
+                </div>
+                <div class="col-4">
+                  <div class="fw-bold text-dark">Station 3</div>
+                  <div class="text-muted">Cozy budget stays & trees</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 6. PHOTO GALLERY (LIGHTBOX ENABLED) ================= -->
+  <section id="gallery" class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge">Visual Exploration</span>
+        <h2 class="section-heading">Boracay Island Photographic Gallery</h2>
+        <p class="section-subtitle">
+          Experience the breathtaking scenery of Boracay's sparkling coastline, marine activities, and tropical resort living. Click any photo to enlarge.
+        </p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-btn-group">
+          <button class="filter-btn active" data-filter="all">All Photos (12)</button>
+          <button class="filter-btn" data-filter="beach">Beaches & Landmarks</button>
+          <button class="filter-btn" data-filter="activity">Tours & Watersports</button>
+          <button class="filter-btn" data-filter="lifestyle">Resort & Lifestyle</button>
+        </div>
+      </div>
+
+      <div class="row g-4" id="galleryGrid">
+        <!-- 1: Hero White Beach -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="beach">
+          <div class="gallery-card">
+            <img src="assets/images/hero_beach.jpg" alt="Boracay White Beach Panorama">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">White Beach Horizon</h5>
+              <p class="small mb-0">Station 1 powdery sands and sailing paraws</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2: Willy's Rock -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="beach">
+          <div class="gallery-card">
+            <img src="assets/images/willys_rock.jpg" alt="Willy's Rock Landmark">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Willy's Rock Shrine</h5>
+              <p class="small mb-0">Volcanic landmark nestled in crystal waters</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3: D'Mall Street -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="lifestyle">
+          <div class="gallery-card">
+            <img src="assets/images/dmall.jpg" alt="D'Mall Street Life">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">D'Mall Promenade</h5>
+              <p class="small mb-0">Bustling shops, cafes, and tropical dining</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4: Coast Resort Pool -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="lifestyle">
+          <div class="gallery-card">
+            <img src="assets/images/coast_resort.jpg" alt="Coast Boracay Resort">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Coast Boracay Pool</h5>
+              <p class="small mb-0">Beachfront cabanas and luxury relaxation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5: Bulabog Beach Kite -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="activity">
+          <div class="gallery-card">
+            <img src="assets/images/bulabog_beach.jpg" alt="Bulabog Kitesurfing">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Bulabog Wind & Waves</h5>
+              <p class="small mb-0">Colorful kitesurfing kites against sunny skies</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6: Island Hopping -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="activity">
+          <div class="gallery-card">
+            <img src="assets/images/island_hopping.jpg" alt="Island Hopping Banca">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Island Hopping Banca</h5>
+              <p class="small mb-0">Snorkeling coral reefs and exploring coves</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7: Paraw Sunset -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="beach">
+          <div class="gallery-card">
+            <img src="assets/images/paraw_sunset.jpg" alt="Boracay Sunset Paraw">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Golden Paraw Sunset</h5>
+              <p class="small mb-0">Famous Boracay sunset with traditional sails</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8: Puka Beach -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="beach">
+          <div class="gallery-card">
+            <img src="assets/images/puka_beach.jpg" alt="Puka Beach Yapak">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Puka Shell Shoreline</h5>
+              <p class="small mb-0">Unspoiled northern paradise with shells</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9: Scuba Diving -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="activity">
+          <div class="gallery-card">
+            <img src="assets/images/scuba_diving.jpg" alt="Boracay Scuba Diving">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Scuba Coral Exploration</h5>
+              <p class="small mb-0">Vibrant tropical marine life and corals</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10: Helmet Diving -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="activity">
+          <div class="gallery-card">
+            <img src="assets/images/helmet_diving.jpg" alt="Helmet Diving Boracay">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Helmet Ocean Walk</h5>
+              <p class="small mb-0">Walk directly along the seabed with tropical fish</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11: Paddleboard -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="activity">
+          <div class="gallery-card">
+            <img src="assets/images/paddleboard.jpg" alt="Stand Up Paddleboarding">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Paddleboarding Calm Seas</h5>
+              <p class="small mb-0">Glide across mirror-like crystal water</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12: Cagban Port -->
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="lifestyle">
+          <div class="gallery-card">
+            <img src="assets/images/cagban_port.jpg" alt="Cagban Port Arrival">
+            <div class="gallery-overlay">
+              <h5 class="fw-bold mb-1">Cagban Gateway Port</h5>
+              <p class="small mb-0">Island jetty arrivals and boat tours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 7. TRAVEL INFORMATION & TOURIST GUIDE ================= -->
+  <section id="guide" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge">Essential Island Knowledge</span>
+        <h2 class="section-heading">Tourist Travel Guide & Guidelines</h2>
+        <p class="section-subtitle">
+          Ensure a smooth, safe, and environmentally sustainable visit by reviewing our comprehensive travel reminders.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1: Climate & Seasons -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-primary-subtle text-primary p-3 rounded-circle fs-4">
+                <i class="bi bi-cloud-sun-fill"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">Best Time & Weather</h5>
+                <small class="text-muted">Amihan vs Habagat</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-chevron-right text-primary"></i> <strong>Amihan Season (Nov - May):</strong> Peak season! Calm, glassy seas on White Beach with sunny skies.</li>
+              <li><i class="bi bi-chevron-right text-primary"></i> <strong>Habagat Season (Jun - Oct):</strong> Southwest monsoon. Windy on White Beach, watersports shift to Bulabog. Great budget travel rates.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2: What to Bring & Dress Code -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-success-subtle text-success p-3 rounded-circle fs-4">
+                <i class="bi bi-backpack-fill"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">What to Bring & Dress</h5>
+                <small class="text-muted">Packing Essentials</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-chevron-right text-success"></i> Reef-safe biodegradable sunscreen (SPF 50+) to safeguard coral formations.</li>
+              <li><i class="bi bi-chevron-right text-success"></i> Waterproof phone pouch & dry bag for island hopping boat excursions.</li>
+              <li><i class="bi bi-chevron-right text-success"></i> Breathable linen, swimwear, UV rash guards, sunglasses, and flip-flops.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3: Environmental Regulations -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-warning-subtle text-warning p-3 rounded-circle fs-4">
+                <i class="bi bi-recycle"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">Eco Rules & Etiquette</h5>
+                <small class="text-muted">Strict Island Preservation</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-chevron-right text-warning"></i> <strong>No Eating or Drinking on White Beach:</strong> Dining is restricted to restaurant premises to avoid trash.</li>
+              <li><i class="bi bi-chevron-right text-warning"></i> <strong>No Smoking & Liquor on Sand:</strong> Strictly enforced by Malay tourism police with fines.</li>
+              <li><i class="bi bi-chevron-right text-warning"></i> Never collect or take sand, pebbles, or shells from the beach.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 4: Currency & Budget -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-info-subtle text-info p-3 rounded-circle fs-4">
+                <i class="bi bi-wallet2"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">Money & Payments</h5>
+                <small class="text-muted">Currency Considerations</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-chevron-right text-info"></i> Currency: Philippine Peso (PHP, ₱). ATMs are available in D'Mall, Station 1 & 2.</li>
+              <li><i class="bi bi-chevron-right text-info"></i> Major credit cards & GCash / Maya digital wallets accepted at resorts and restaurants.</li>
+              <li><i class="bi bi-chevron-right text-info"></i> Keep small cash bills (₱20, ₱50, ₱100) handy for e-trikes and beach vendors.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 5: Accessibility & Local Transit -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-secondary-subtle text-secondary p-3 rounded-circle fs-4">
+                <i class="bi bi-signpost-split-fill"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">Getting Around Boracay</h5>
+                <small class="text-muted">Eco Electric Tricycles</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-chevron-right text-secondary"></i> E-trikes operate on the main island road: standard fare is ₱15 - ₱25 per pax along stations.</li>
+              <li><i class="bi bi-chevron-right text-secondary"></i> Special direct trip (charter) across stations ranges from ₱100 - ₱150 per e-trike.</li>
+              <li><i class="bi bi-chevron-right text-secondary"></i> The 4km White Beach beachfront is 100% pedestrian-only and ideal for strolling.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 6: Health & Emergency Contacts -->
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm border h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="bg-danger-subtle text-danger p-3 rounded-circle fs-4">
+                <i class="bi bi-hospital-fill"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-0">Health & Emergency</h5>
+                <small class="text-muted">24/7 Hotlines</small>
+              </div>
+            </div>
+            <ul class="feature-list small text-muted">
+              <li><i class="bi bi-telephone-inbound text-danger"></i> <strong>Boracay Tourist Police:</strong> (036) 288-3066 / 166</li>
+              <li><i class="bi bi-telephone-inbound text-danger"></i> <strong>Malay Municipal Health Clinic:</strong> (036) 288-5444</li>
+              <li><i class="bi bi-telephone-inbound text-danger"></i> <strong>Philippine Red Cross Boracay:</strong> (036) 288-2068</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. FAQ SECTION ================= -->
+  <section class="py-5 bg-white border-top border-bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center mb-4">
+            <span class="badge bg-secondary-subtle text-secondary px-3 py-2 rounded-pill fw-semibold">Got Questions?</span>
+            <h3 class="fw-bold mt-2">Frequently Asked Questions</h3>
+          </div>
+
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item border rounded-3 mb-3 overflow-hidden shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  Do I need a confirmed hotel booking before arriving in Boracay?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body small text-muted">
+                  Yes. Under Philippine Department of Tourism (DOT) guidelines, all arriving visitors must present a confirmed booking voucher from a DOT-accredited hotel or resort at the Caticlan Jetty Port before boarding boats.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border rounded-3 mb-3 overflow-hidden shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  What makes the 3D2N Getaway package at ₱6,999/pax such great value?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body small text-muted">
+                  Our package bundles 2 nights accommodation (including Coast Boracay or similar partner hotels), daily breakfast, roundtrip Caticlan airport land-and-boat transfers, and a half-day island hopping tour with an accredited licensed guide.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border rounded-3 mb-3 overflow-hidden shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  How does the website database work without SQL?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body small text-muted">
+                  This academic tourism platform operates 100% client-side using HTML5 <code>localStorage</code> database persistence. All bookings and inquiries made by visitors are saved instantly on their browser, viewable in the built-in database dashboard, and exportable to JSON!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 9. CUSTOMER REVIEWS / TESTIMONIALS ================= -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge">Client Satisfaction</span>
+        <h2 class="section-heading">What Travelers Say About Boracay</h2>
+        <p class="section-subtitle">Real experiences shared by international tourists and Filipino vacationers.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm rounded-4 bg-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <span class="review-badge">Verified Booking</span>
+            </div>
+            <p class="text-muted small fst-italic mb-4">
+              "The 3D2N package at Coast Boracay was flawless! Seamless airport transfer, friendly guide during the island hopping boat trip, and the sand on Station 1 really is like baby powder."
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 44px; height: 44px;">JD</div>
+              <div>
+                <h6 class="fw-bold mb-0">Jerome & Diane Tan</h6>
+                <small class="text-muted">Manila, Philippines &bull; Stayed Oct 2026</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm rounded-4 bg-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <span class="review-badge">Verified Booking</span>
+            </div>
+            <p class="text-muted small fst-italic mb-4">
+              "Witnessing the sunset from a traditional paraw sailboat in Station 1 was the highlight of our entire Southeast Asian holiday. The website booking process was instantaneous!"
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <div class="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 44px; height: 44px;">EM</div>
+              <div>
+                <h6 class="fw-bold mb-0">Emma & Marcus Schmidt</h6>
+                <small class="text-muted">Munich, Germany &bull; Stayed Sep 2026</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm rounded-4 bg-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <span class="review-badge">Verified Booking</span>
+            </div>
+            <p class="text-muted small fst-italic mb-4">
+              "Kitesurfing in Bulabog Beach in the morning and dinner at D'Mall in the evening. Everything mentioned in the travel package was 100% accurate. Highly recommended!"
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 44px; height: 44px;">AL</div>
+              <div>
+                <h6 class="fw-bold mb-0">Alexandre Laurent</h6>
+                <small class="text-muted">Paris, France &bull; Stayed Aug 2026</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 10. BOOKING / RESERVATION SECTION (LOCAL STORAGE DATABASE) ================= -->
+  <section id="booking" class="section-padding bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="row g-0">
+              <div class="col-lg-5 bg-primary text-white p-4 p-md-5 d-flex flex-column justify-content-between" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;">
+                <div>
+                  <span class="badge bg-white text-primary fw-bold px-3 py-2 rounded-pill mb-3">DIRECT RESERVATION</span>
+                  <h3 class="fw-bold mb-3">Secure Your Boracay Dream Vacation</h3>
+                  <p class="text-white-50 small mb-4">
+                    Complete this academic reservation form. All data is securely handled and stored in your browser's local database (No external SQL database required, perfectly compliant for GitHub Pages).
+                  </p>
+
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <i class="bi bi-telephone-forward fs-3 text-warning"></i>
+                    <div>
+                      <small class="text-white-50 d-block">Reservation Hotline</small>
+                      <span class="fw-bold fs-6">+63 912 345 6789</span>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <i class="bi bi-envelope-at fs-3 text-warning"></i>
+                    <div>
+                      <small class="text-white-50 d-block">Email Support</small>
+                      <span class="fw-bold fs-6">boracaytravel@gmail.com</span>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-clock-history fs-3 text-warning"></i>
+                    <div>
+                      <small class="text-white-50 d-block">Desk Operating Hours</small>
+                      <span class="fw-bold fs-6">Mon - Sun: 8:00 AM – 8:00 PM</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-4 border-top border-white border-opacity-25 mt-4">
+                  <small class="text-white-50">Academic Note: Does not collect sensitive personal banking info.</small>
+                </div>
+              </div>
+
+              <div class="col-lg-7 p-4 p-md-5">
+                <h4 class="fw-bold text-dark mb-1">Book or Reserve Package</h4>
+                <p class="text-muted small mb-4">Select your desired itinerary, travel date, and hotel preference.</p>
+
+                <form id="boracayBookingForm">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="bookFullName" class="form-label small fw-semibold">Lead Guest Full Name <span class="text-danger">*</span></label>
+                      <input type="text" id="bookFullName" class="form-control" placeholder="e.g. Maria Santos" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="bookEmail" class="form-label small fw-semibold">Email Address <span class="text-danger">*</span></label>
+                      <input type="email" id="bookEmail" class="form-control" placeholder="e.g. maria@gmail.com" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="bookPhone" class="form-label small fw-semibold">Contact / Mobile Number <span class="text-danger">*</span></label>
+                      <input type="tel" id="bookPhone" class="form-control" placeholder="+63 912 345 6789" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="bookGuests" class="form-label small fw-semibold">Number of Guests <span class="text-danger">*</span></label>
+                      <input type="number" id="bookGuests" class="form-control" value="2" min="1" max="30" required>
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="bookPackage" class="form-label small fw-semibold">Select Tour Package <span class="text-danger">*</span></label>
+                      <select id="bookPackage" class="form-select" required>
+                        <option value="3d2n-featured" selected>3 Days 2 Nights Boracay Getaway (₱6,999/pax)</option>
+                        <option value="4d3n-luxury">4 Days 3 Nights Luxury Sunset & Watersports Escape (₱11,499/pax)</option>
+                        <option value="3d2n-adventure">3 Days 2 Nights Eco-Thrill & Diving Expedition (₱7,499/pax)</option>
+                        <option value="5d4n-honeymoon">5 Days 4 Nights Ultimate Honeymoon & Sunset Cruise (₱18,999/pax)</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="bookDate" class="form-label small fw-semibold">Target Check-In Date <span class="text-danger">*</span></label>
+                      <input type="date" id="bookDate" class="form-control" required>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="bookHotel" class="form-label small fw-semibold">Accommodation Option <span class="text-danger">*</span></label>
+                      <select id="bookHotel" class="form-select" required>
+                        <option value="Coast Boracay (Station 2)">Coast Boracay (Station 2 - Featured)</option>
+                        <option value="Discovery Shores (Station 1)">Discovery Shores (Station 1 Luxury)</option>
+                        <option value="Henann Crystal Sands (Station 2)">Henann Crystal Sands (Station 2)</option>
+                        <option value="Villa Caemilla (Station 3)">Villa Caemilla (Station 3 Boutique)</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="bookNotes" class="form-label small fw-semibold">Special Requests / Flight Details</label>
+                      <textarea id="bookNotes" class="form-control" rows="2" placeholder="e.g. Arriving on PR 2041 at Caticlan Airport 11:30 AM, vegetarian breakfast option."></textarea>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                      <button type="submit" class="btn btn-primary-custom w-100 justify-content-center py-3">
+                        <i class="bi bi-send-check-fill"></i> Submit Reservation to Local Database
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 11. LOCAL STORAGE DATABASE MANAGEMENT TOOL ================= -->
+  <section id="admin-database" class="section-padding bg-light border-top">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+        <div>
+          <span class="section-badge"><i class="bi bi-hdd-network-fill"></i> Client-Side Technology</span>
+          <h3 class="fw-bold mb-1">Local Tourism Database Manager</h3>
+          <p class="text-muted small mb-0">Records stored 100% in Browser LocalStorage (Zero SQL, GitHub Pages Ready).</p>
+        </div>
+        <div class="d-flex gap-2 mt-3 mt-md-0">
+          <button class="btn btn-sm btn-outline-success" onclick="exportDataAsJSON()">
+            <i class="bi bi-download me-1"></i> Export Data (JSON)
+          </button>
+          <button class="btn btn-sm btn-outline-danger" onclick="resetDatabase()">
+            <i class="bi bi-arrow-counterclockwise me-1"></i> Reset DB
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Navigation for Bookings and Inquiries -->
+      <ul class="nav nav-pills mb-3" id="dbTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="bookings-tab" data-bs-toggle="pill" data-bs-target="#tab-bookings" type="button" role="tab">
+            <i class="bi bi-journal-check me-1"></i> Package Bookings (<span id="totalBookingsCount">0</span>)
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="inquiries-tab" data-bs-toggle="pill" data-bs-target="#tab-inquiries" type="button" role="tab">
+            <i class="bi bi-chat-left-dots me-1"></i> Contact Inquiries (<span id="totalInquiriesCount">0</span>)
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="dbTabsContent">
+        <!-- Bookings Tab -->
+        <div class="tab-pane fade show active" id="tab-bookings" role="tabpanel">
+          <div class="table-responsive table-custom">
+            <table class="table table-hover mb-0">
+              <thead>
+                <tr>
+                  <th>Booking Ref / Date</th>
+                  <th>Guest Details</th>
+                  <th>Tour Package</th>
+                  <th>Guests</th>
+                  <th>Check-In</th>
+                  <th>Total Cost</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="bookingsTableBody">
+                <!-- Dynamically populated by main.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Inquiries Tab -->
+        <div class="tab-pane fade" id="tab-inquiries" role="tabpanel">
+          <div class="table-responsive table-custom">
+            <table class="table table-hover mb-0">
+              <thead>
+                <tr>
+                  <th>Inquiry ID / Date</th>
+                  <th>Name / Email</th>
+                  <th>Phone</th>
+                  <th>Subject & Message</th>
+                  <th>Status</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="inquiriesTableBody">
+                <!-- Dynamically populated by main.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12. CONTACT US SECTION ================= -->
+  <section id="contact" class="section-padding bg-white">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <span class="section-badge">Get in Touch</span>
+          <h2 class="section-heading">Contact Our Boracay Team</h2>
+          <p class="text-muted mb-4">
+            Have questions regarding tailor-made itineraries, corporate group retreats, or private island transfers? We are here to assist.
+          </p>
+
+          <div class="d-flex align-items-start gap-3 mb-4">
+            <div class="bg-primary text-white p-3 rounded-circle">
+              <i class="bi bi-geo-alt-fill fs-5"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Physical Office Location</h6>
+              <p class="text-muted small mb-0">
+                Station 1, White Beach Beachfront, Barangay Balabag, Boracay Island, Malay, Aklan 5608, Philippines
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start gap-3 mb-4">
+            <div class="bg-success text-white p-3 rounded-circle">
+              <i class="bi bi-telephone-fill fs-5"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Call / WhatsApp / Viber</h6>
+              <p class="text-muted small mb-0">
+                <strong>+63 912 345 6789</strong> (Brochure Official Line)<br>
+                +63 (36) 288-9900 (Landline)
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start gap-3 mb-4">
+            <div class="bg-info text-white p-3 rounded-circle">
+              <i class="bi bi-envelope-fill fs-5"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Official Email Desk</h6>
+              <p class="text-muted small mb-0">
+                boracaytravel@gmail.com<br>
+                inquiry@boracayislands.ph
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start gap-3">
+            <div class="bg-warning text-dark p-3 rounded-circle">
+              <i class="bi bi-clock-fill fs-5"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Desk Operating Schedule</h6>
+              <p class="text-muted small mb-0">
+                Monday to Sunday: 8:00 AM – 8:00 PM (PHT)<br>
+                Emergency boat assistance: 24/7
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="p-4 p-md-5 rounded-4 bg-light border shadow-sm">
+            <h4 class="fw-bold mb-3">Send Us a Direct Inquiry</h4>
+            <p class="text-muted small mb-4">Fill out this quick form and our island coordinator will respond promptly.</p>
+
+            <form id="boracayInquiryForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="inqFullName" class="form-label small fw-semibold">Your Name <span class="text-danger">*</span></label>
+                  <input type="text" id="inqFullName" class="form-control" placeholder="Carlos Reyes" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inqEmail" class="form-label small fw-semibold">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" id="inqEmail" class="form-control" placeholder="carlos@yahoo.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inqPhone" class="form-label small fw-semibold">Phone / WhatsApp</label>
+                  <input type="tel" id="inqPhone" class="form-control" placeholder="+63 920 987 6543">
+                </div>
+                <div class="col-md-6">
+                  <label for="inqSubject" class="form-label small fw-semibold">Subject <span class="text-danger">*</span></label>
+                  <input type="text" id="inqSubject" class="form-control" placeholder="Group discount inquiry" required>
+                </div>
+                <div class="col-12">
+                  <label for="inqMessage" class="form-label small fw-semibold">Your Message <span class="text-danger">*</span></label>
+                  <textarea id="inqMessage" class="form-control" rows="4" placeholder="How can we help plan your Boracay trip?" required></textarea>
+                </div>
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-primary-custom w-100 justify-content-center">
+                    <i class="bi bi-send-fill me-1"></i> Send Inquiry Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 13. FOOTER ================= -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <a class="navbar-brand text-white mb-3 d-inline-block" href="#top">
+            <i class="bi bi-tsunami text-info"></i>
+            <span class="text-white">BORACAY <span class="text-info">TRAVEL</span></span>
+          </a>
+          <p class="small text-white-50 mb-3">
+            Your premier destination platform and travel package provider for Boracay Island, Malay, Aklan, Philippines. Dedicated to sustainable island tourism and unforgettable memories.
+          </p>
+          <div class="fst-italic text-warning small mb-3">
+            "See &bull; Feel &bull; Explore Boracay"
+          </div>
+          <div class="d-flex gap-2">
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5>Quick Links</h5>
+          <a href="#top" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About Us</a>
+          <a href="#attractions" class="footer-link">Attractions</a>
+          <a href="#packages" class="footer-link">Tour Packages</a>
+          <a href="#gallery" class="footer-link">Photo Gallery</a>
+          <a href="#booking" class="footer-link">Online Booking</a>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h5>Attractions</h5>
+          <a href="#attractions" class="footer-link">White Beach (Station 1)</a>
+          <a href="#attractions" class="footer-link">D'Mall de Boracay (Station 2)</a>
+          <a href="#attractions" class="footer-link">Bulabog Beach (East Side)</a>
+          <a href="#attractions" class="footer-link">Willy's Rock Landmark</a>
+          <a href="#attractions" class="footer-link">Puka Shell Beach</a>
+          <a href="#attractions" class="footer-link">Cagban Port Jetty</a>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Academic Accreditation</h5>
+          <div class="small text-white-50 mb-2">
+            <strong>Applied Business Tools & Tech in Tourism</strong><br>
+            Final Examination Project Submission
+          </div>
+          <div class="small text-white-50 mb-3">
+            Platform: HTML5 + Bootstrap 5.3 + LocalStorage<br>
+            Deployment: GitHub Pages (No SQL requirement)
+          </div>
+          <div class="badge bg-success p-2 w-100 text-start">
+            <i class="bi bi-check-circle-fill me-1"></i> 100% Client-Side Ready
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4 border-top border-secondary text-center small text-white-50">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <div>
+            &copy; 2026 Boracay Island Travel & Tours. All Rights Reserved.
+          </div>
+          <div class="mt-2 mt-md-0">
+            <span>Academic Project Disclaimer: Contact information and booking records simulated for academic demonstration.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= BOOKING SUCCESS MODAL ================= -->
+  <div class="modal fade" id="bookingSuccessModal" tabindex="-1" aria-labelledby="bookingSuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow">
+        <div class="modal-body text-center p-4 p-md-5">
+          <div class="text-success mb-3">
+            <i class="bi bi-check-circle-fill" style="font-size: 4rem;"></i>
+          </div>
+          <h3 class="fw-bold mb-2">Booking Confirmed!</h3>
+          <p class="text-muted small mb-4">Your reservation has been recorded in the local database.</p>
+
+          <div class="bg-light p-3 rounded-3 text-start small mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="text-muted">Booking Reference:</span>
+              <strong id="modalBookingId" class="text-primary">-</strong>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+              <span class="text-muted">Lead Guest:</span>
+              <strong id="modalBookingName">-</strong>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+              <span class="text-muted">Package:</span>
+              <strong id="modalBookingPackage">-</strong>
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-muted">Total Amount:</span>
+              <strong id="modalBookingTotal" class="text-success fs-6">-</strong>
+            </div>
+          </div>
+
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-secondary flex-grow-1 rounded-pill" data-bs-dismiss="modal">Close</button>
+            <a href="#admin-database" class="btn btn-primary flex-grow-1 rounded-pill" data-bs-dismiss="modal">View in Database</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LIGHTBOX MODAL ================= -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body p-0 position-relative text-center">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="lightboxImg" src="" class="img-fluid rounded-4 shadow-lg mb-2" alt="Enlarged View" style="max-height: 80vh; object-fit: contain;">
+          <div id="lightboxCaption" class="bg-dark bg-opacity-75 text-white p-3 rounded-3 mx-auto" style="max-width: 600px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Logic & Local Database -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
